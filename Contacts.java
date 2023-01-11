@@ -2,13 +2,13 @@ package com.day22Collection;
 
 public class Contacts {
 
-	private final String firstName;
-    private final String lastName;
-    private final String city;
-    private final String state;
-    private final int zip;
-    private final long phoneNumber;
-    private final String email;
+	private  String firstName;
+    private  String lastName;
+    private  String city;
+    private  String state;
+    private  int zip;
+    private  long phoneNumber;
+    private  String email;
 
     public Contacts(String firstName, String lastName, String city, String state, int zip, long phoneNumber, String email) {
         this.firstName = firstName;
@@ -20,32 +20,60 @@ public class Contacts {
         this.email = email;
     }
 
-    public String getCity() {
-        return city;
-    }
+	public final String getFirstName() {
+		return firstName;
+	}
 
-    public String getLastName() {
-        return lastName;
-    }
+	public final void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
 
-    public String getFirstName() {
-        return firstName;
-    }
+	public final String getLastName() {
+		return lastName;
+	}
 
-    public String getState() {
-        return state;
-    }
+	public final void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
 
-    public long getPhoneNumber() {
-        return phoneNumber;
-    }
+	public final String getCity() {
+		return city;
+	}
 
-    public String getEmail() {
-        return email;
-    }
+	public final void setCity(String city) {
+		this.city = city;
+	}
 
-    public int getZip() {
-        return zip;
-    }
+	public final String getState() {
+		return state;
+	}
+
+	public final void setState(String state) {
+		this.state = state;
+	}
+
+	public final int getZip() {
+		return zip;
+	}
+
+	public final void setZip(int zip) {
+		this.zip = zip;
+	}
+
+	public final long getPhoneNumber() {
+		return phoneNumber;
+	}
+
+	public final void setPhoneNumber(long phoneNumber) {
+		this.phoneNumber = phoneNumber;
+	}
+
+	public final String getEmail() {
+		return email;
+	}
+
+	public final void setEmail(String email) {
+		this.email = email;
+	}
 
 }

@@ -39,7 +39,7 @@ public class Contact {
         return phoneNumber;
     }
 
-    public String getEmail() {
+    public String getEmail() { 
         return email;
     }
 
