@@ -81,4 +81,8 @@ public class AddressBook {
 
      contacts.put(firstName.toLowerCase(),(new Contacts(firstName, lastName, city, state, zip, phoneNumber, email)));
  }
+ public void deleteContact() {
+    String firstName = scanner.nextLine();
+     contacts.remove(firstName.toLowerCase());
+ }
 }

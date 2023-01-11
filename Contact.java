@@ -37,7 +37,7 @@ public class Contact {
 
     public long getPhoneNumber() {
         return phoneNumber;
-    }
+    } 
 
     public String getEmail() { 
         return email;
