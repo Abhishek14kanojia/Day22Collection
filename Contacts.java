@@ -1,6 +1,7 @@
 package com.day22Collection;
 
-public class Contact {
+public class Contacts {
+
 	private final String firstName;
     private final String lastName;
     private final String city;
@@ -9,7 +10,7 @@ public class Contact {
     private final long phoneNumber;
     private final String email;
 
-    public Contact(String firstName, String lastName, String city, String state, int zip, long phoneNumber, String email) {
+    public Contacts(String firstName, String lastName, String city, String state, int zip, long phoneNumber, String email) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.city = city;
@@ -47,8 +48,4 @@ public class Contact {
         return zip;
     }
 
-    @Override
-    public String toString() {
-        return "Contacts {" + " Firstname : " + firstName +", LastName : " + lastName +", City : " + city + ", State : " + state + ", Zip : " + zip +", PhoneNumber : " + phoneNumber +", emailId : " + email + " }";
-    } 
 }
